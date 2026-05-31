@@ -1,0 +1,10 @@
+script,pipeline_stage,runtime_seconds,runtime_minutes,evidence_source
+02_build_graph.py,Heterogeneous graph construction,775.81,12.93,script log
+06.1_validate_hsbgdl.py,Dataset validation and consistency checking,4124.03,68.73,script log
+07_train_classifier.py,GCN-based graph/subgraph classification,8487.40,141.46,script log
+09_generate_query_subgraphs.py,Query subgraph generation,2619.79,43.66,script log and video evidence
+10_visualize_query_subgraphs.py,Query subgraph visualization,319.99,5.33,script log
+11_spot_query_subgraphs.py,Query graph spotting,2954.65,49.24,script log
+16_visualize_top_and_skipped_queries.py,Visualization of top and skipped query cases,455.74,7.60,script log
+run_r8_spotting_baselines.py,Spotting baseline evaluation,1125.00,18.75,script log
+TOTAL,Listed measured stages,20862.41,347.71,computed from available logs
